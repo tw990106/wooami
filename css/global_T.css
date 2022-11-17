@@ -1,0 +1,167 @@
+
+a,
+#gnbPanel ul div ol li{
+    text-decoration: none;
+}
+header > div nav ul li,
+#gnbPanel span,
+#gnbPanel strong,
+#gnbPanel ul div ol li,
+footer > div:first-of-type ul li h3, a, address, span,
+footer > div:last-of-type div p{
+    font-family: 'Mulish';
+}
+header > div > button.material-icons{
+    background-color: transparent; border: none; font-size: 24px;
+}
+ 
+[id$='Panel']{
+    display: none;
+}
+[id$='Panel'].active{
+    display: block;
+}
+/* all Use */
+
+@media screen and (min-width: 1280px){
+    header > div:first-of-type{
+        max-width: 1800px; margin: 0 auto; padding: 20px 0; position: relative;
+    }
+    header > div:first-of-type:after{
+        content: ''; display: block; clear: both;
+    }
+    header > div:first-of-type > *:not(div){
+        float: left;
+    }
+    header > div:first-of-type h1{
+        max-width: 122px; width: 6.8%; margin-left: 2.8%;
+    }
+    header > div:first-of-type h1 a{
+        display: block;
+    }
+    header > div:first-of-type h1 a img{
+        width: 100%;
+    }
+    header > div:first-of-type nav{
+        margin-left: 2.5%;
+    }
+    header > div:first-of-type nav ul li{
+        display: inline-block; padding: 0 10px; line-height: 30px;
+        font-size: 12px; color: #222; font-weight: 600; cursor: default;
+    }
+    header > div:first-of-type nav ul li a{
+        display: block; color: inherit;
+    }
+    header > div:first-of-type nav ul li:hover{
+        border-bottom: 1px solid black; color: #888;
+    }
+    header > div:first-of-type div{
+        position: absolute; right: 0; width: 25%;
+    }
+    header > div:first-of-type div > *{
+        display: block; float: left;
+    }
+    header > div:first-of-type div span{
+        width: 70%; border-bottom: 1px solid black; line-height: 30px;
+    }
+    header > div:first-of-type div span input[type='search']{
+        width: 290px; font-size: 14px; color: #222; border: none;
+    }
+    header > div:first-of-type div span input[type='submit']{
+        background-color: transparent; border: none; text-indent: -9999px; background: url('../images/header_search.png') center / contain no-repeat; width: 14px;
+    }
+    header > div:first-of-type div ul{
+        margin-left: 2%; width: 28%;
+    }
+    header > div:first-of-type div ul li{
+        display: inline-block;
+    }
+    header > div:first-of-type div ul li a{
+        display: block; text-indent: -9999px; background-position: center; background-size: contain; background-repeat: no-repeat; line-height: 30px; margin: 0 10px;
+    }
+    header > div:first-of-type div ul li:nth-child(1) a{
+        background-image: url('../images/header_myacc.png'); width: 17px;
+    }
+    header > div:first-of-type div ul li:nth-child(2) a{
+        background-image: url('../images/header_wish.png'); width: 20px;
+    }
+    header > div:first-of-type div ul li:nth-child(3) a{
+        background-image: url('../images/header_shopbag.png'); width: 15px;
+     }
+    #gnbPanel{
+        width: 100%; border-top: 1px solid #ebebe6; padding: 65px 0; position: relative;
+    }
+    #gnbPanel > ul{
+        max-width: 1900px; margin: 0 auto; list-style: none;
+    }
+    #gnbPanel > ul li{
+        line-height: 50px;
+    }
+    #gnbPanel > ul > li:hover{
+        width: 100%;
+    }
+    #gnbPanel > ul li > span{
+        padding: 0 2.65%; display: block; box-sizing: border-box; border-right: 1px solid #ebebe6;
+        max-width: 395px; width: 20.78%; font-size: 12px; font-weight: 700; color: #555;
+    }
+    #gnbPanel > ul li:hover > span{
+        background: url('../images/header_arrow.png') right 15px center / 8px no-repeat, #ebebe6;
+    }
+    #gnbPanel > ul li > span+div{
+        display: none; position: absolute; left: 20.78%; top: 65px; width: 79.22%; padding: 0 3%; box-sizing: border-box;
+    }
+    #gnbPanel > ul li:hover > span+div{
+        display: flex; justify-content: space-between;
+    }
+    #gnbPanel strong{
+        font-size: 14px; font-weight: 700; color: #222;
+    }
+    #gnbPanel div ol li{
+        list-style: none;
+    }
+    #gnbPanel div ol li:hover a{
+        color: #222;
+    }
+    #gnbPanel div ol li a{
+        font-size: 12px; font-weight: 600; color: #777; 
+    }
+    #gnbPanel div > div:last-child img{
+        width: 100%;
+    }
+    #gnbPanel div > div:last-child a:hover{
+        color: #777;
+    }
+    #gnbPanel div > div:last-child a{
+        display: block; font-size: 24px; font-weight: 800; color: #222; 
+        background: url('../images/header_arrow.png') right center / 10px no-repeat;
+    }
+ 
+
+    /* footer */
+    footer,
+    footer > div:last-of-type{
+        border-top: 1px solid gray;
+    }
+    footer > div:first-of-type,
+    footer > div:last-of-type > div{
+        max-width: 1800px; margin: 0 auto;
+    }
+    footer > div:first-of-type{
+        padding: 40px 0;
+    }
+    footer > div:first-of-type:after{
+        content: ''; display: block; clear: both;
+    }
+    footer > div:first-of-type > *{
+        float: left;
+    }
+    footer > div:first-of-type ul{
+        width: 75%;
+    }
+    footer > div:first-of-type ul li{
+        display: inline-block;
+    }
+    footer > div:first-of-type div{
+        width: 25 %;
+    }
+}
