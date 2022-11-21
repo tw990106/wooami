@@ -564,6 +564,9 @@ header+*{
         background-color: transparent; border: none; text-indent: -9999px; width: inherit; line-height: inherit;
         background: url('../images/header_search.png') center / 14px no-repeat; display: block;
     }
+    header > div:first-of-type div ul li input[type='button'].active{
+        background: url('../images/search_close.png') center / 13px no-repeat;
+    }
     header > div:first-of-type div ul li a{
         display: block; text-indent: -9999px; background-position: center; background-repeat: no-repeat; line-height: 30px;
     }
@@ -792,18 +795,6 @@ header+*{
     header > div:first-of-type div ul li:nth-child(4) a{
         background-image: url('../images/header_shopbag.png'); background-size: 15px;
      }
-    /* header > div:first-of-type div span{
-        width: 55%; border-bottom: 1px solid black; line-height: 30px;
-    }
-    header > div:first-of-type div span input[type='search']{
-        max-width: 200px; min-width: 100px; font-size: 14px; color: #222; border: none;
-    } */
-    /* header > div:first-of-type div ul{
-        margin-left: 2%; width: 43%;
-    }
-    header > div:first-of-type div ul li{
-        display: inline-block;
-    } */
     #gnbPanel{
         width: 100%; border-top: 1px solid #ebebe6; padding: 65px 0; position: relative;
     }
