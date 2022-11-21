@@ -550,10 +550,6 @@ header+*{
         background: url('../images/header_search.png') center / contain no-repeat; width: 14px;
         
     }
-    header > div:first-of-type div span input[type='button']{
-        background-color: transparent; border: none; display: inline-block;
-        text-indent: -9999px; background: url('../images/search_close.png') center / 8px no-repeat;
-    }
     header > div:first-of-type div ul{
         display: flex; list-style: none; justify-content: flex-end;
     }
