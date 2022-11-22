@@ -105,9 +105,6 @@ function respSearch(){
         });
       }
 }
-// ! 다른 형태의 slider를 포용하고싶다면? -> 
-// 비적용대상 - git의 default 값을 참고해서 넣어주기
-// 적용대상 - 원하는 값 넣어주기
 
 function popupControl(openBtn,closeBtn){
     var currentPop = null;

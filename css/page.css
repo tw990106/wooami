@@ -2340,7 +2340,6 @@
     .headCopy{
          margin: 0 auto 80px;
          background-color: #616e76;
-         transition-property: width;
     }
     .headCopy:after{
         content: ''; display: block; clear: both;
