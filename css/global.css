@@ -296,7 +296,7 @@ header+*{
         display: block; color: inherit;
     }
     header > div:first-of-type div{
-        width: 34.6%; margin-left: 14%;
+        width: 31.6%; margin-left: 14%;
     }
     header > div:first-of-type div span{
         width: 100%; position: absolute; box-sizing: border-box; top: 63px; 

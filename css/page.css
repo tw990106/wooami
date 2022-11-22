@@ -1658,16 +1658,13 @@
         float: left; box-sizing: border-box; padding: 10px 0; line-height: 14px;
     }
     .qualityBox > ul > li > span:first-of-type{
-        width: 50%;
+        width: 50%; box-sizing: border-box; border-right: 2px solid #fff;
     }
     .qualityBox > ul > li > span:nth-of-type(2){
-        width: 27%;
+        width: 25%;
     }
     .qualityBox > ul > li > span:nth-of-type(3){
-        width: 23%;
-    }
-    .qualityBox > ul > li > span:not(:first-of-type){
-        box-sizing: border-box; border-left: 2px solid #fff;
+        width: 25%; box-sizing: border-box; border-left: 2px solid #fff;
     }
     .useBox{
         margin-bottom: 70px;
@@ -1981,7 +1978,7 @@
     .wishContainer > aside ul li,
     .orderContainer > aside ul li,
     .shopbagContainer > aside ul li{
-        margin-bottom: 15 px;
+        margin-bottom: 15px;
     }
     .mypageContainer > aside ul li a,
     .personalContainer > aside ul li a,
@@ -4692,7 +4689,6 @@
     .headCopy{
          margin: 0 auto;
          background-color: #616e76;
-         transition-property: width;
     }
     .headCopy:after{
         content: ''; display: block; clear: both;
@@ -4719,7 +4715,7 @@
         color: #fff; line-height: 30px;
     }
     .headCopy img{
-        width: 65%; transition-duration: 3s;
+        width: 65%;
     }
 
 
@@ -5577,6 +5573,9 @@
     .contactBox > form ul li:after{
         content: ''; display: block; clear: both; 
     }
+    .contactBox > form ul li input{
+        padding: 0 1%; box-sizing: border-box;
+    }
     .contactBox > form ul li:first-of-type,
     .contactBox > form ul li:nth-of-type(2),
     .contactBox > form ul li:nth-of-type(3),
@@ -5607,14 +5606,11 @@
         width: 350px; height: 30px;
     }
     .contactBox > form ul li:nth-of-type(5) textarea{
-        width: 755px; height: 300px; resize: none;
+        width: 755px; height: 300px; resize: none; padding: 1%; box-sizing: border-box;
     }
     .contactBox > form ul li:nth-of-type(6) input[type='file']{
         width: 200px; 
     }
-    /* .contactBox > form ul li:nth-of-type(6) span{
-        font-size: 14px; font-weight: 500; color: #555;
-    } */
     .contactBox > form ul li:nth-of-type(7){
         box-sizing: border-box; padding-bottom: 30px;
     }
