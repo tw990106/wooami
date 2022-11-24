@@ -4782,11 +4782,10 @@
     }
     .productBox ul li p{
         margin-bottom: 40px; font-size: 14px; font-weight: 500;
-        color: #222; margin-left: 5%;
+        color: #222;
     }
     .productBox ul li a{
         font-size: 14px; font-weight: 500; color: #555;
-        margin-left: 5%;
     }
     .productBox ul li a:hover{
         color: #222;
