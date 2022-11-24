@@ -4743,13 +4743,13 @@
         border-left: 1px solid #ebebe6;
     }
     .storeBox > div > div h3{
-        padding-bottom: 65px; font-size: 18px; font-weight: 700; color: #222;
+        margin-bottom: 65px; font-size: 18px; font-weight: 700; color: #222;
     }
     .storeBox > div > div img{
         margin-bottom: 40px;
     }
     .storeBox > div > div p{
-        padding-bottom: 40px; font-size: 15px; font-weight: 500;
+        margin-bottom: 40px; font-size: 15px; font-weight: 500;
         color: #555; line-height: 20px;
     }
     .storeBox > div > div a{
@@ -4770,11 +4770,14 @@
     .productBox > ul{
         float: left; list-style: none; width: 33.3%;
     }
+    .productBox ul li > *:not(img){
+        padding: 0 5%; box-sizing: border-box;
+    }
     .productBox ul li img{
         width: 100%; margin-bottom: 25px;
     }
     .productBox ul li h3{
-        box-sizing: border-box; margin-bottom: 25px; margin-left: 5%;
+        box-sizing: border-box; margin-bottom: 25px; 
         font-size: 22px; font-weight: 800; color: #222;
     }
     .productBox ul li p{
