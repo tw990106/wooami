@@ -5010,10 +5010,10 @@
         right: 0; top: 30%; z-index: 1; position: absolute;
     }
     #aboutUs > section:last-of-type > div:last-of-type img{
-        width: 100%;
+        width: 100%; margin-bottom: 50px;
     }
     #aboutUs > section:last-of-type > div:last-child h4{
-        box-sizing: border-box; padding: 80px 2.5% 80px 0; font-size: 30px; font-weight: 800;
+        box-sizing: border-box; padding-right: 2.5%; font-size: 30px; font-weight: 800;
         line-height: 40px; color: #222; text-align: right;
     }
     #headQuarters{
