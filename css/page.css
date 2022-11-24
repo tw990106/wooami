@@ -4945,32 +4945,32 @@
     }
     #aboutUs > section:first-of-type > div:last-child h2{
         font-size: 24px; font-weight: 800; line-height: 70px;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     #aboutUs > section:first-of-type > div:last-child p{
         line-height: 20px; font-size: 14px; font-weight: 600; color: #555;
     }
     #aboutUs > section:first-of-type > div:last-child p:first-of-type{
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
     #aboutUs > section:nth-of-type(2){
         position: relative; width: 100%; z-index: 1; margin-bottom: 100px;
     }
     #aboutUs > section:nth-of-type(2) > div:first-child{
         position: absolute; background: url('../images/about_03.png') left top no-repeat; width: 1000px;
-        z-index: 3; margin-top: 200px; 
+        z-index: 3; margin-top: 150px; padding: 150px 0 250px; box-sizing: border-box; 
     }
     #aboutUs > section:nth-of-type(2) > div:first-child > *{
-        padding-left: 10%;
+        padding-left: 10%; box-sizing: border-box;
     }
     #aboutUs > section:nth-of-type(2) > div:first-child strong{
-        font-size: 48px; font-weight: 800; color: #d8d8d8; display: block; padding-top: 150px;
+        font-size: 48px; font-weight: 800; color: #d8d8d8; display: block;
     }
     #aboutUs > section:nth-of-type(2) > div:first-child h2{
-        padding-bottom: 40px; font-size: 30px; font-weight: 700; color: #d8d8d8;
+        margin-bottom: 40px; font-size: 30px; font-weight: 700; color: #d8d8d8;
     }
     #aboutUs > section:nth-of-type(2) > div:first-child p{
-        padding-bottom: 330px; font-size: 24px; color: #d8d8d8; line-height: 30px;
+        font-size: 24px; color: #d8d8d8; line-height: 30px;
     }
     #aboutUs > section:nth-of-type(2) > div:last-child{
         margin-left: auto; width: 70%; background-color: #f8f8f8; text-align: right;
